@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 function App() {
  const [message, setMessage] = useState("Loading...");
  useEffect(() => {
-   //  fetch("https://mernder-backend-2.onrender.com/api/hello")
+    fetch("https://y23-mern-render-backend-1.onrender.com")
     fetch("http://localhost:8080/api/hello")
    
  .then((res) => {
